@@ -49,7 +49,7 @@ const yyyymmdstr = moment().format("YYYY/MM/DD");
 const currentDate = moment().format("YYYY/MM/DD");
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### एक ही प्रकार के चर के लिए समान शब्दावली का प्रयोग करें
 
@@ -67,7 +67,7 @@ getCustomerRecord();
 getUser();
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### खोजने योग्य नामों का प्रयोग करें
 
@@ -90,7 +90,7 @@ const MILLISECONDS_PER_DAY = 60 * 60 * 24 * 1000; //86400000;
 setTimeout(blastOff, MILLISECONDS_PER_DAY);
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### चरों के नाम इस प्रकार रखें कि नामों को देखकर ही उन्हें समझा जा सके
 
@@ -114,7 +114,7 @@ const [_, city, zipCode] = address.match(cityZipCodeRegex) || [];
 saveCityZipCode(city, zipCode);
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### मानसिक मानचित्रण से बचें
 
@@ -149,7 +149,7 @@ locations.forEach(location => {
 });
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### अनावश्यक संदर्भ न जोड़ें
 
@@ -183,7 +183,7 @@ function paintCar(car, color) {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### शॉर्ट सर्किटिंग या कंडीशनल के बजाय डिफ़ॉल्ट तर्कों का उपयोग करें
 
@@ -209,7 +209,7 @@ function createMicrobrewery(name = "Hipster Brew Co.") {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ## **Functions**
 
@@ -269,7 +269,7 @@ createMenu({
 });
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Functions should do one thing
 
@@ -305,7 +305,7 @@ function isActiveClient(client) {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Function names should say what they do
 
@@ -333,7 +333,7 @@ const date = new Date();
 addMonthToDate(1, date);
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Functions should only be one level of abstraction
 
@@ -405,7 +405,7 @@ function parse(tokens) {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Remove duplicate code
 
@@ -491,7 +491,7 @@ function showEmployeeList(employees) {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Set default objects with Object.assign
 
@@ -544,7 +544,7 @@ function createMenu(config) {
 createMenu(menuConfig);
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Don't use flags as function parameters
 
@@ -574,7 +574,7 @@ function createTempFile(name) {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Avoid Side Effects (part 1)
 
@@ -623,7 +623,7 @@ console.log(name); // 'Ryan McDermott';
 console.log(newName); // ['Ryan', 'McDermott'];
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Avoid Side Effects (part 2)
 
@@ -679,7 +679,7 @@ const addItemToCart = (cart, item) => {
 };
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Don't write to global functions
 
@@ -713,7 +713,7 @@ class SuperArray extends Array {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Favor functional programming over imperative programming
 
@@ -778,7 +778,7 @@ const totalOutput = programmerOutput.reduce(
 );
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Encapsulate conditionals
 
@@ -802,7 +802,7 @@ if (shouldShowSpinner(fsmInstance, listNodeInstance)) {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Avoid negative conditionals
 
@@ -830,7 +830,7 @@ if (isDOMNodePresent(node)) {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Avoid conditionals
 
@@ -890,7 +890,7 @@ class Cessna extends Airplane {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Avoid type-checking (part 1)
 
@@ -919,7 +919,7 @@ function travelToTexas(vehicle) {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Avoid type-checking (part 2)
 
@@ -956,7 +956,7 @@ function combine(val1, val2) {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Don't over-optimize
 
@@ -984,7 +984,7 @@ for (let i = 0; i < list.length; i++) {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Remove dead code
 
@@ -1018,7 +1018,7 @@ const req = newRequestModule;
 inventoryTracker("apples", req, "www.inventory-awesome.io");
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ## **Objects and Data Structures**
 
@@ -1081,7 +1081,7 @@ const account = makeBankAccount();
 account.setBalance(100);
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Make objects have private members
 
@@ -1121,7 +1121,7 @@ delete employee.name;
 console.log(`Employee name: ${employee.getName()}`); // Employee name: John Doe
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ## **Classes**
 
@@ -1208,7 +1208,7 @@ class Human extends Mammal {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Use method chaining
 
@@ -1288,7 +1288,7 @@ class Car {
 const car = new Car("Ford", "F-150", "red").setColor("pink").save();
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Prefer composition over inheritance
 
@@ -1358,7 +1358,7 @@ class Employee {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ## **SOLID**
 
@@ -1420,7 +1420,7 @@ class UserSettings {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Open/Closed Principle (OCP)
 
@@ -1511,7 +1511,7 @@ class HttpRequester {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Liskov Substitution Principle (LSP)
 
@@ -1630,7 +1630,7 @@ const shapes = [new Rectangle(4, 5), new Rectangle(4, 5), new Square(5)];
 renderLargeShapes(shapes);
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Interface Segregation Principle (ISP)
 
@@ -1708,7 +1708,7 @@ const $ = new DOMTraverser({
 });
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Dependency Inversion Principle (DIP)
 
@@ -1811,7 +1811,7 @@ const inventoryTracker = new InventoryTracker(
 inventoryTracker.requestItems();
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ## **Testing**
 
@@ -1882,7 +1882,7 @@ describe("MomentJS", () => {
 });
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ## **Concurrency**
 
@@ -1933,7 +1933,7 @@ get("https://en.wikipedia.org/wiki/Robert_Cecil_Martin")
   });
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Async/Await are even cleaner than Promises
 
@@ -1982,7 +1982,7 @@ async function getCleanCodeArticle() {
 getCleanCodeArticle()
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ## **Error Handling**
 
@@ -2061,7 +2061,7 @@ getdata()
   });
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ## **Formatting**
 
@@ -2112,7 +2112,7 @@ class Animal {}
 class Alpaca {}
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Function callers and callees should be close
 
@@ -2200,7 +2200,7 @@ const review = new PerformanceReview(employee);
 review.perfReview();
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ## **Comments**
 
@@ -2247,7 +2247,7 @@ function hashIt(data) {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Don't leave commented out code in your codebase
 
@@ -2268,7 +2268,7 @@ doStuff();
 doStuff();
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Don't have journal comments
 
@@ -2297,7 +2297,7 @@ function combine(a, b) {
 }
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ### Avoid positional markers
 
@@ -2336,7 +2336,7 @@ const actions = function() {
 };
 ```
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
 
 ## Translation
 
@@ -2366,4 +2366,4 @@ This is also available in other languages:
 - ![ua](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Ukraine.png) **Ukrainian**: [mindfr1k/clean-code-javascript-ua](https://github.com/mindfr1k/clean-code-javascript-ua)
 - ![vi](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Vietnam.png) **Vietnamese**: [hienvd/clean-code-javascript/](https://github.com/hienvd/clean-code-javascript/)
 
-**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#table-of-contents)**
+**[⬆ शीर्ष पर वापस जाने के लिए यहां क्लिक करें](#विषयसूची)**
